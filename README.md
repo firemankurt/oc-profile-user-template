@@ -5,6 +5,7 @@ Copy this file into your October CMS theme pages directory or just copy and past
 using the October Backend CMS section.
 
 This Page uses the following October CMS Plugins :
+
 [User](http://octobercms.com/plugin/rainlab-user) by RainLab (Required)
 
 [Profile](http://octobercms.com/plugin/kurtjensen-profile) by Kurt Jensen (Required)
