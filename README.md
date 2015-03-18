@@ -13,3 +13,6 @@ This Page uses the following October CMS Plugins :
 [CellPhone](http://octobercms.com/plugin/kurtjensen-cellphone) by Kurt Jensen
 
 [Mailgun List Subscriber](http://octobercms.com/plugin/kurtjensen-mailgun) by Kurt Jensen
+
+
+Watch [this video](https://vimeo.com/122505195) on how to add a user profile managemanet page to your october website.
