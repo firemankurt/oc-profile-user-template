@@ -1,0 +1,55 @@
+title = "Me"
+url = "/me"
+layout = "default"
+description = "All about me."
+hidden = "0"
+
+[MyInfo]
+country = "1"
+
+[ExtendedInfo]
+redirect = "me"
+
+[Profpic]
+redirect = "me"
+
+[ProfilePhones]
+
+
+[Manage]
+listname = "All"
+==
+<div style="padding-bottom: 100px; min-height: 300px;">
+    <h2>{{ user.name }}</h2>
+    <div role="tabpanel" class="control-tabs primary layout has-tabs">
+        <div class="">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#primary" aria-controls="primary" role="tab" data-toggle="tab">Primary Information</a></li>
+            <li role="presentation"><a href="#proPhoto" aria-controls="proPhoto" role="tab" data-toggle="tab">Profile Photo</a></li>
+            <li role="presentation"><a href="#extended" aria-controls="extended" role="tab" data-toggle="tab">Extended Information</a></li>
+            <li role="presentation"><a href="#cellphones" aria-controls="cellphones" role="tab" data-toggle="tab">Cell Phones</a></li>
+            <li role="presentation"><a href="#mailingList" aria-controls="mailingList" role="tab" data-toggle="tab">Mailing List</a></li>
+          </ul>
+        </div>
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="primary">
+            {% component 'MyInfo' %}
+        </div>
+        <div role="tabpanel" class="tab-pane" id="proPhoto">
+            {% component 'Profpic' %}
+        </div>
+        <div role="tabpanel" class="tab-pane" id="extended">
+            {% component 'ExtendedInfo' %}
+        </div>
+        <div role="tabpanel" class="tab-pane" id="cellphones">
+            {% component 'ProfilePhones' %}
+        </div>
+        <div role="tabpanel" class="tab-pane" id="mailingList">
+            {% component 'Manage' %}
+        </div>
+      </div>
+    
+    </div>
+</div>
